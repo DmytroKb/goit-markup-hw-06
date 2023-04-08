@@ -650,6 +650,7 @@ body {
 }
 .footer-form {
   display: flex;
+  outline: none;
 }
 
 /* Madal window */
