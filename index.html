@@ -422,10 +422,13 @@
         </div>
         <div class="footer-subscribe-container">
           <p class="subscribe-title">Subscribe</p>
-          <div class="subscribe-wrap">
-            <form>
-              <input type="text" class="subscribe-form" placeholder="E-mail" />
-            </form>
+          <form class="footer-form">
+            <input
+              type="email"
+              class="subscribe-form"
+              placeholder="E-mail"
+              name="user-subscribe-email"
+            />
             <button type="button" class="subscribe-button">
               Subscribe
 
@@ -433,14 +436,14 @@
                 <use href="./images/modal.svg#icon-telegram"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
     <!-- BACKDROP -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-button" data-modal-close>
+        <button type="submit" class="modal-close-button" data-modal-close>
           <svg width="8" height="8" class="modal-close-icon">
             <use href="./images/icons-close.svg#icon-close"></use>
           </svg>
